@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="rev.css">
+    <!-- <script>
+        function supprimer() {
+            var table = document.querySelector("tbody");
+            table.removeChild(table.lastChild);
+        }
+
+    </script> -->
+</head>
+
+<body>
+
+    <h1>Gestion des livres </h1>
+    <forms>
+        <label for="">Titre :</label>
+        <input type="text" id="titre"><br><br>
+        <label for="">Auteur :</label>
+        <input type="text" id="auteur"><br><br>
+        <label for="">prix : </label>
+        <input type="number" id="prix"><br><br>
+    </form>
+    
+    <button class="plus">Ajouter</button>
+    <!-- <button class="del" onclick="supprimer()">supprimer</button> -->
+        <table>
+            <thead>
+                <tr>
+                    <th>titre</th>
+                    <th>Auteur</th>
+                    <th>prix</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+     
+        <!-- <input type="button" id="plus" value="" />
+        <input type="button" id="del" value="Supprimer" onclick="supprimer()" /> -->
+
+
+        <script src="rev.js"></script>
+</body>
+
+</html>

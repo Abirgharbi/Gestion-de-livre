@@ -1,0 +1,32 @@
+
+body{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  }
+  th
+  {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 150px;
+    text-align: center;
+  }
+  table,td
+  {
+    text-align: center;
+    border: 1px solid black;
+  }
+  .container {
+    width: 200px;
+    
+  }
+  
+  .container input {
+    width: 600px;
+    clear: both;
+  }
+  .plus{
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+  
